@@ -1,0 +1,8 @@
+CREATE TABLE `userdata ` (
+	`id` INT(255) NOT NULL AUTO_INCREMENT,
+	`user` VARCHAR(50) NOT NULL,
+	`email` VARCHAR(100) NOT NULL,
+	`mobile` INT(20) NOT NULL,
+	`comment` VARCHAR(255) NOT NULL,
+	PRIMARY KEY (`id`)
+);
